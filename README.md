@@ -1,4 +1,5 @@
 # react-link-filter
+![GitHub version](https://badge.fury.io/gh/roast-cms%2Freact-link-filter.svg)
 > ▼ Filter and process your `<NavLink />` components and `<a />` tags for better user experience, security, and SEO.
 
 ### What does this React component do?
