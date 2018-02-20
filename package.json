@@ -15,9 +15,12 @@
     "babel-preset-react": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "webpack": "^3.11.0",
-    "webpack-dev-server": "^2.11.1"
+    "webpack-dev-server": "^2.11.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-router-dom": "^4.2.2"
   },
-  "peerDependencies" : {
+  "peerDependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-router-dom": "^4.2.2"
