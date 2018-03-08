@@ -7,7 +7,7 @@ import { Switch, Route } from "react-router-dom"
 // link component
 import LinkFilter from "../src/index"
 const Link = props =>
-  <LinkFilter  {...props}>
+  <LinkFilter domain="localhost:3002" {...props}>
     {props.children}
   </LinkFilter>
 
