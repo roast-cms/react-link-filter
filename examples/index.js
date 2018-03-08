@@ -1,8 +1,7 @@
 // tools
 import React from "react"
 import { render } from "react-dom"
-import { BrowserRouter } from "react-router-dom"
-import { Switch, Route } from "react-router-dom"
+import { Switch, Route, BrowserRouter } from "react-router-dom"
 
 // link component
 import LinkFilter from "../src/index"
