@@ -1,5 +1,6 @@
 // convert absolute web URL to relative url:
 export const makeRelative = (href, DOMAIN) => {
+  if(!DOMAIN) return href || "#"
   const apexName = DOMAIN.replace("www.", "")
   let address = href || "#" // <-- with fallback
   address = address

@@ -1,9 +1,9 @@
 {
-  "name": "@roast-cms/react-link-filter",
-  "version": "0.1.0",
-  "description": "Filter and process your <NavLink /> components for better user experience and SEO.",
+  "name": "@roast-cms/button-beans",
+  "version": "0.1.1",
+  "description": "styled-components primitives for creating beautiful, responsive buttons in React.js.",
   "main": "dist/index.js",
-  "repository": "https://github.com/roast-cms/react-link-filter.git",
+  "repository": "https://github.com/roast-cms/button-beans.git",
   "author": "dmitrizzle <d@analog.cafe>",
   "license": "MPL-2.0",
   "private": false,
@@ -20,8 +20,13 @@
     "react-dom": "^16.0.0",
     "react-router-dom": "^4.2.2"
   },
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-router-dom": "^4.2.2"
+  },
   "scripts": {
     "start": "webpack-dev-server",
-    "prepare": "babel src --presets babel-preset-es2015 --out-dir dist"
+    "prepare": "babel src --out-dir dist"
   }
 }
